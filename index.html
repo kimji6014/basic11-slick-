@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- slick -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" />
+    <title>김지영</title>
+</head>
+
+<body>
+    <div class="전체">
+        <div class="첫째">
+            <div class="icon">
+                <i class="fas fa-star" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000"
+                    data-aos-easing="ease-in-out-back"></i>
+                <i class="fas fa-star" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000"
+                    data-aos-easing="ease-in-out-back"></i>
+                <i class="fas fa-star" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000"
+                    data-aos-easing="ease-in-out-back"></i>
+                <i class="fas fa-star" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000"
+                    data-aos-easing="ease-in-out-back"></i>
+                <i class="far fa-star" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000"
+                    data-aos-easing="ease-in-out-back"></i>
+            </div>
+            <div class="제목">
+                <h3>예쁜아이유</h3>
+            </div>
+            <div class="slickWrap">
+                <div>
+                    <img src="img/img11.jpg" alt="slider1">
+                </div>
+                <div>
+                    <img src="img/img12.jpg" alt="slider2">
+                </div>
+                <div>
+                    <img src="img/img13.jpeg" alt="slider3">
+                </div>
+            </div>
+        </div><!-- //첫째 -->
+        <div class="둘째 clear">
+            <div class="둘자손 둘자식1" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">둘자식1</div>
+            <div class="둘자손 둘자식2" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">둘자식2</div>
+            <div class="둘자손 둘자식3" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">둘자식3</div>
+            <div class="둘자손 둘자식4" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
+                <div class="slick2">
+                    <div>
+                        <img src="https://fashionseoul.com/wp-content/uploads/2022/05/20220513_J-2-683x1024.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="https://blog.kakaocdn.net/dn/LKVnI/btrDaTcPDpE/Zc5v3adpLuxLopDCI83Tc1/img.png" alt="">
+                    </div>
+                    <div>
+                        <img src="https://blog.kakaocdn.net/dn/0LWHG/btrEtjUoPUU/uGahioXIlEXR0165vWrOk0/img.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div><!-- //둘째 -->
+        <div class="셋째">
+            <div class="셋째영역 clear">
+                <div class="셋자손 셋자식1" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">셋자식1</div>
+                <div class="셋자손 셋자식2" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">셋자식2</div>
+                <div class="셋자손 셋자식3" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">셋자식3</div>
+            </div>
+        </div><!-- //셋째 -->
+        <div class="넷째 clear">
+            <div class="넷자손 넷자식1" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">넷자식1</div>
+            <div class="넷자손 넷자식2" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">넷자식2</div>
+            <div class="넷자손 넷자식3" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">넷자식3</div>
+            <div class="넷자손 넷자식4" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">넷자식4</div>
+        </div><!-- //넷째 -->
+        <div class="다째 clear">
+            <div class="다째손 다자식1">three_첫째</div>
+            <div class="다째손 다자식2">three_둘째</div>
+        </div><!-- //다째 -->
+       <div class="여섯 clear">
+            <div class="여손자 여자식1">여자식1</div>
+            <div class="여손자 여자식2">여자식2</div>
+            <div class="여손자 여자식3">여자식3</div>
+            <div class="여손자 여자식4">여자식4</div>
+            <div class="여손자 여자식5">여자식5</div>
+        </div><!-- //여섯 -->
+    </div>
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        $(document).ready(function () {
+            AOS.init();
+
+            $('.slickWrap').slick({
+                //setting - name: setting - value
+                autoplay: true,
+            });
+            $('.slick2').slick({
+                //setting - name: setting - value
+                //autoplay:true,
+                arrows: false,
+                dots: true
+            });
+
+        });
+    </script>
+</body>
+
+</html>
